@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.show{
+    width: 600px;
+    height: 100px;
+    background-color: #E0E0E0    ;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.Calculator{
+    background-color:#121212    ;
+    width: 600px;
+    height: 600px;
+    border-radius: 16px;
+    padding: 15px;
+
+    
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.number div{
+    width: calc(90%/4);
+    color: white;
+    height: 50px;
+    background-color:#444444    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+.zero{
+    width: 300px !important;
+}
+
+.sign{
+    background-color: #DAA520 !important    ;
+}
+
+.sym{
+    background-color: #E0E0E0   !important  ;
+    color: #121212 !important;
+    background-color:#B0B0B0 !important    ;
+
+}
+
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    overflow: scroll;
+}
+
+.DEL{
+    width: 300px !important;
+    width: calc(90%/4);
+    color: white;
+    height: 50px;
+    background-color:#B0B0B0 !important    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+}
